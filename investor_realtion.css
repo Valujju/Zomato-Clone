@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Okra, Helvetica, sans-serif;;
+}
+
+.header{
+    color: white;
+    background-color: rgb(226, 55, 68);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    }
+    
+.left-item{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px 70px 10px 210px;
+    gap: 10px;
+}
+
+.left-item img{
+    width: 100px;
+}
+
+
+.right-item {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.right-item  a{
+    text-decoration: none;
+    color: white;
+}
+
+ a:hover{
+    font-size: 19px;
+}
+
+/* second */
+
+.section-1{
+    background-color: rgb(226, 55, 68);
+    display: flex;
+    align-items: center;
+    height: 620px;
+}
+
+.section-1 .first{
+    padding: 0px 100px 60px 210px;
+    color: white;
+}
+.section-1 .first  h2{
+    font-size: 26px;
+    font-weight: 200;
+}
+.section-1 .first img{
+    width: 100px;
+}
+.pic{
+    display: flex;
+    gap: 20px;
+}
+
+
+/* second wala  */
+
+.section-1 .second{
+    background-color: rgb(248, 248, 248);
+    border-radius: 40px;
+}
+.second{
+    height: 500px;
+    width: 400px;
+    padding: 20px;
+}
+
+.second h2{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.pera{
+    display: flex;
+    align-items: flex-start;
+}
+
+.inner-box{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 24px;
+    width: 100%;
+    height: 80px;
+}
